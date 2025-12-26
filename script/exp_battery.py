@@ -28,7 +28,7 @@ if PARENT_DIR not in sys.path:
 
 
 
-def run_model_general_eval():
+def general_eval():
     """
     Run general eval for full model suite
     Args:
@@ -36,7 +36,7 @@ def run_model_general_eval():
     """
     pass
 
-def run_model_wm_eval():
+def wm_eval():
     """
     Run world model eval for full model suite
     Args:
@@ -44,13 +44,21 @@ def run_model_wm_eval():
     """
     pass
 
-def run_general_explanations():
+def general_explanations():
     """
     Get explanations for large model suite
     Args:
         api_models (List): optional- runs additional families of api_model families as specified, ie. openai, gemini
     """
     pass
+
+def explanation_code():
+    """
+    classify model + human explanations based on pre-specified code
+    """
+    pass
+
+
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
