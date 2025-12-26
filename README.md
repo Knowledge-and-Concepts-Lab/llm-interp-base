@@ -1,4 +1,4 @@
-# Code for *Content Effects in Human and LLM World Models
+# Code for *Content Effects in Human and LLM World Models*
 
 ## Setup
 
