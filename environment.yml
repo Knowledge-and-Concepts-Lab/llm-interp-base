@@ -16,5 +16,7 @@ dependencies:
     - tqdm
     - matplotlib
     - nbformat
+    - openai
+    - google-genai
     - plotly
 variables:
